@@ -1,0 +1,29 @@
+
+.dotted{
+	position:absolute;
+	border:1px dashed #7F7F7F;
+	z-index:999;
+}
+
+.transparent{
+	background-color: #333333;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	-khtml-opacity: 0.5;
+	-moz-opacity: 0.5;
+	position: absolute;
+	visibility: visible;
+}
+
+.input {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	width:70px;
+}
+
+.txt {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
